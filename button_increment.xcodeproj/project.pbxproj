@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D54E50B7A30C54A277139250 /* button_incrementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E5F39F98AEA7025A998DA /* button_incrementTests.swift */; };
+		D54E5384123041CC8D1E4AFB /* button_incrementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E5CC97E0B75DC8079CF44 /* button_incrementUITests.swift */; };
+		D54E54A54214BA52429E7B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54E5E1EBD63AA84BEFF69AE /* Assets.xcassets */; };
+		D54E55AC4F01ABF07381A088 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54E58C77989DF247F92EE24 /* Preview Assets.xcassets */; };
+		D54E5A2B65CAAD4D31847CA6 /* button_incrementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E5BBB874722D18FFDDC1F /* button_incrementApp.swift */; };
+		D54E5F6869E01746E04BF207 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54E5EE10E6B9F553CF2D9DF /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54E5219F5CAA8280225B553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54E590B087028C1A628B4E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54E51E5955E6BBFE68FAD46;
+			remoteInfo = button_increment;
+		};
+		D54E5296E7FFFC8A10DDA6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D54E590B087028C1A628B4E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D54E51E5955E6BBFE68FAD46;
+			remoteInfo = button_increment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D54E50A089B3B3B59C86CC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		D54E58C77989DF247F92EE24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D54E5BBB874722D18FFDDC1F /* button_incrementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_incrementApp.swift; sourceTree = "<group>"; };
+		D54E5C0331C0D64EFC9ED3D5 /* button_incrementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = button_incrementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54E5CC97E0B75DC8079CF44 /* button_incrementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_incrementUITests.swift; sourceTree = "<group>"; };
+		D54E5DBEB7EDCBAC2E60572A /* button_incrementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = button_incrementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54E5E1EBD63AA84BEFF69AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D54E5EE10E6B9F553CF2D9DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D54E5F39F98AEA7025A998DA /* button_incrementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_incrementTests.swift; sourceTree = "<group>"; };
+		D54E5F57AE95548A9CA190F9 /* button_increment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = button_increment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54E5F5855EE19BC4D228057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		D54E5F999A782EB534CDDDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D54E5CCB858685D1C67AA6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E5DF396C3FACD93A0EF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E5F90649F3078E6EBA389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D54E532EB1D4DA79F6FA61C0 = {
+			isa = PBXGroup;
+			children = (
+				D54E5E16CF0545570986A8CA /* Products */,
+				D54E593FFDD7C8B72AB102AA /* button_increment */,
+				D54E5EE8DA186598E9A2D789 /* button_incrementTests */,
+				D54E55EA47068193AA92237D /* button_incrementUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		D54E534192AC690EE91DC48F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D54E58C77989DF247F92EE24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D54E55EA47068193AA92237D /* button_incrementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D54E50A089B3B3B59C86CC78 /* Info.plist */,
+				D54E5CC97E0B75DC8079CF44 /* button_incrementUITests.swift */,
+			);
+			path = button_incrementUITests;
+			sourceTree = "<group>";
+		};
+		D54E593FFDD7C8B72AB102AA /* button_increment */ = {
+			isa = PBXGroup;
+			children = (
+				D54E5F999A782EB534CDDDC7 /* Info.plist */,
+				D54E5E1EBD63AA84BEFF69AE /* Assets.xcassets */,
+				D54E534192AC690EE91DC48F /* Preview Content */,
+				D54E5BBB874722D18FFDDC1F /* button_incrementApp.swift */,
+				D54E5EE10E6B9F553CF2D9DF /* ContentView.swift */,
+			);
+			path = button_increment;
+			sourceTree = "<group>";
+		};
+		D54E5E16CF0545570986A8CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54E5F57AE95548A9CA190F9 /* button_increment.app */,
+				D54E5C0331C0D64EFC9ED3D5 /* button_incrementTests.xctest */,
+				D54E5DBEB7EDCBAC2E60572A /* button_incrementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54E5EE8DA186598E9A2D789 /* button_incrementTests */ = {
+			isa = PBXGroup;
+			children = (
+				D54E5F5855EE19BC4D228057 /* Info.plist */,
+				D54E5F39F98AEA7025A998DA /* button_incrementTests.swift */,
+			);
+			path = button_incrementTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D54E51E5955E6BBFE68FAD46 /* button_increment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54E5CA66425E3358B443764 /* Build configuration list for PBXNativeTarget "button_increment" */;
+			buildPhases = (
+				D54E573B413A5F18D80FEE3F /* Sources */,
+				D54E5F90649F3078E6EBA389 /* Frameworks */,
+				D54E5E6EEA94F436C67B1CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = button_increment;
+			productName = button_increment;
+			productReference = D54E5F57AE95548A9CA190F9 /* button_increment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D54E526C9BB258857CE3747E /* button_incrementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54E5AE1C1D95950CFB115DA /* Build configuration list for PBXNativeTarget "button_incrementUITests" */;
+			buildPhases = (
+				D54E540D5D992A36CE7F12F4 /* Sources */,
+				D54E5DF396C3FACD93A0EF59 /* Frameworks */,
+				D54E58C3C69558C7CB84217A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54E53B600F835B34362C91A /* PBXTargetDependency */,
+			);
+			name = button_incrementUITests;
+			productName = button_incrementUITests;
+			productReference = D54E5DBEB7EDCBAC2E60572A /* button_incrementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D54E55DEFE43F7E661D40716 /* button_incrementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D54E5FBCD8AC7F95E73C8954 /* Build configuration list for PBXNativeTarget "button_incrementTests" */;
+			buildPhases = (
+				D54E51D11BE04B6F10F4DB2E /* Sources */,
+				D54E5CCB858685D1C67AA6DD /* Frameworks */,
+				D54E58143ACC67CC9EAEDFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D54E571F544A1CCB0A1D3F2D /* PBXTargetDependency */,
+			);
+			name = button_incrementTests;
+			productName = button_incrementTests;
+			productReference = D54E5C0331C0D64EFC9ED3D5 /* button_incrementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D54E590B087028C1A628B4E9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D54E5898A753102AECC31FB9 /* Build configuration list for PBXProject "button_increment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D54E532EB1D4DA79F6FA61C0;
+			productRefGroup = D54E5E16CF0545570986A8CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D54E51E5955E6BBFE68FAD46 /* button_increment */,
+				D54E55DEFE43F7E661D40716 /* button_incrementTests */,
+				D54E526C9BB258857CE3747E /* button_incrementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D54E58143ACC67CC9EAEDFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E58C3C69558C7CB84217A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E5E6EEA94F436C67B1CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54E54A54214BA52429E7B59 /* Assets.xcassets in Resources */,
+				D54E55AC4F01ABF07381A088 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D54E51D11BE04B6F10F4DB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54E50B7A30C54A277139250 /* button_incrementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E540D5D992A36CE7F12F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54E5384123041CC8D1E4AFB /* button_incrementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54E573B413A5F18D80FEE3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54E5A2B65CAAD4D31847CA6 /* button_incrementApp.swift in Sources */,
+				D54E5F6869E01746E04BF207 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D54E53B600F835B34362C91A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54E51E5955E6BBFE68FAD46 /* button_increment */;
+			targetProxy = D54E5296E7FFFC8A10DDA6A6 /* PBXContainerItemProxy */;
+		};
+		D54E571F544A1CCB0A1D3F2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D54E51E5955E6BBFE68FAD46 /* button_increment */;
+			targetProxy = D54E5219F5CAA8280225B553 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D54E521A11C75E61CEAA3C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = button_incrementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Charlotte.button-incrementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = button_increment;
+			};
+			name = Debug;
+		};
+		D54E524BA1C60444FAF3D8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_ASSET_PATHS = "\"button_increment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = button_increment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Charlotte.button-increment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D54E55860735D9B32FCEFEB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				DEVELOPMENT_ASSET_PATHS = "\"button_increment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = button_increment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Charlotte.button-increment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D54E55C0EDB0F90918BE0532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/button_increment.app/button_increment";
+				INFOPLIST_FILE = button_incrementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Charlotte.button-incrementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		D54E57C344EF32C8C2BA6391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/button_increment.app/button_increment";
+				INFOPLIST_FILE = button_incrementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Charlotte.button-incrementTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D54E583A72BCDE47C12EF945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = button_incrementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Charlotte.button-incrementUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = button_increment;
+			};
+			name = Release;
+		};
+		D54E584D9D224ABE69650DD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D54E5BC917B3AA7666BADF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D54E5898A753102AECC31FB9 /* Build configuration list for PBXProject "button_increment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54E584D9D224ABE69650DD5 /* Debug */,
+				D54E5BC917B3AA7666BADF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D54E5AE1C1D95950CFB115DA /* Build configuration list for PBXNativeTarget "button_incrementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54E521A11C75E61CEAA3C08 /* Debug */,
+				D54E583A72BCDE47C12EF945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D54E5CA66425E3358B443764 /* Build configuration list for PBXNativeTarget "button_increment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54E55860735D9B32FCEFEB0 /* Debug */,
+				D54E524BA1C60444FAF3D8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D54E5FBCD8AC7F95E73C8954 /* Build configuration list for PBXNativeTarget "button_incrementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D54E57C344EF32C8C2BA6391 /* Debug */,
+				D54E55C0EDB0F90918BE0532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D54E590B087028C1A628B4E9 /* Project object */;
+}
